@@ -32,6 +32,7 @@ public class hw {
     }
 
         private static void findSymbols(Stack<Character> stack, Character ch) {
+
             if ((stack.peek() == '(' && ch == ')') ||
                     (stack.peek() == '[' && ch == ']') ||
                     (stack.peek() == '{' && ch == '}')) {
